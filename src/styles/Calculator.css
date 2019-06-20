@@ -1,0 +1,82 @@
+html {
+  font-size: 17px;
+}
+
+body {
+  font-family: "Monsterhut", sans-serif;
+  
+}
+
+p {
+  font-size: 1.5em;
+  margin-bottom: -2px ;
+  color: rgb(12, 12, 12);
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 1em;
+  opacity:.7;
+}
+
+small {
+  font-weight: lighter;
+  color: rgb(85, 73, 73);
+  margin: 0;
+}
+
+.flex {
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  width: 19rem;
+  margin: 20vh auto;
+  box-shadow: 5px 8px 20px -2px;
+  
+}
+
+.input-range__label--max {
+  display: none;
+  color: red;
+  background: red;
+}
+
+.input-range__label--min {
+  display: inline;
+  color: red;
+  background: red;
+
+}
+
+.input-range__label-container {
+  left: -50%;
+  position: relative;
+  display: none;
+  
+}
+img{
+  text-decoration:none;
+  border:0;
+  width : 62px;
+  height : 30px;
+  margin : 0;
+  padding : 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1{
+  font-weight: bolder;
+  opacity: 0.9;
+  color: rgb(207, 32, 32);
+  font-size: 24px;
+}
