@@ -12,7 +12,7 @@ class Calculator extends Component {
     amountValue: 500,
     monthsNum: 6,
     interestRate: .25,
-    monthlyPayment: 112,
+    monthlyPayment: 93,
     numPayments: 0,
     principal: 0
   };
