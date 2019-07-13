@@ -11,8 +11,8 @@ class Calculator extends Component {
   state = {
     amountValue: 500,
     monthsNum: 6,
-    interestRate: 0,
-    monthlyPayment: 0,
+    interestRate: .25,
+    monthlyPayment: 112,
     numPayments: 0,
     principal: 0
   };
